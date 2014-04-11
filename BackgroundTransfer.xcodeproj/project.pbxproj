@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0FDFC818F7A50C00C03286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0FDFC718F7A50C00C03286 /* Foundation.framework */; };
+		6F0FDFCA18F7A50C00C03286 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0FDFC918F7A50C00C03286 /* CoreGraphics.framework */; };
+		6F0FDFCC18F7A50C00C03286 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0FDFCB18F7A50C00C03286 /* UIKit.framework */; };
+		6F0FDFD218F7A50C00C03286 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FDFD018F7A50C00C03286 /* InfoPlist.strings */; };
+		6F0FDFD418F7A50C00C03286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0FDFD318F7A50C00C03286 /* main.m */; };
+		6F0FDFD818F7A50C00C03286 /* AGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0FDFD718F7A50C00C03286 /* AGAppDelegate.m */; };
+		6F0FDFDA18F7A50C00C03286 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FDFD918F7A50C00C03286 /* Podfile */; };
+		6F0FDFDC18F7A50C00C03286 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FDFDB18F7A50C00C03286 /* .gitignore */; };
+		6F0FDFDE18F7A50C00C03286 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FDFDD18F7A50C00C03286 /* Images.xcassets */; };
+		6F0FDFE518F7A50C00C03286 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0FDFE418F7A50C00C03286 /* XCTest.framework */; };
+		6F0FDFE618F7A50C00C03286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0FDFC718F7A50C00C03286 /* Foundation.framework */; };
+		6F0FDFE718F7A50C00C03286 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0FDFCB18F7A50C00C03286 /* UIKit.framework */; };
+		6F0FDFEF18F7A50C00C03286 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FDFED18F7A50C00C03286 /* InfoPlist.strings */; };
+		6F0FDFF118F7A50C00C03286 /* BackgroundTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0FDFF018F7A50C00C03286 /* BackgroundTransferTests.m */; };
+		6F0FE03C18F7A61400C03286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FE03B18F7A61400C03286 /* Main.storyboard */; };
+		6F0FE03F18F7A63D00C03286 /* AGBackgroundTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0FE03E18F7A63D00C03286 /* AGBackgroundTransferViewController.m */; };
+		B4C30A797AB346539898AFA0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFF976219DE4390B92510EE /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F0FDFE818F7A50C00C03286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0FDFBC18F7A50C00C03286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0FDFC318F7A50C00C03286;
+			remoteInfo = BackgroundTransfer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EFF976219DE4390B92510EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0FDFC418F7A50C00C03286 /* BackgroundTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0FDFC718F7A50C00C03286 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F0FDFC918F7A50C00C03286 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F0FDFCB18F7A50C00C03286 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F0FDFCF18F7A50C00C03286 /* BackgroundTransfer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundTransfer-Info.plist"; sourceTree = "<group>"; };
+		6F0FDFD118F7A50C00C03286 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0FDFD318F7A50C00C03286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F0FDFD518F7A50C00C03286 /* BackgroundTransfer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackgroundTransfer-Prefix.pch"; sourceTree = "<group>"; };
+		6F0FDFD618F7A50C00C03286 /* AGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
+		6F0FDFD718F7A50C00C03286 /* AGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
+		6F0FDFD918F7A50C00C03286 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F0FDFDB18F7A50C00C03286 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6F0FDFDD18F7A50C00C03286 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F0FDFE318F7A50C00C03286 /* BackgroundTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0FDFE418F7A50C00C03286 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F0FDFEC18F7A50C00C03286 /* BackgroundTransferTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundTransferTests-Info.plist"; sourceTree = "<group>"; };
+		6F0FDFEE18F7A50C00C03286 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0FDFF018F7A50C00C03286 /* BackgroundTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundTransferTests.m; sourceTree = "<group>"; };
+		6F0FE03B18F7A61400C03286 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6F0FE03D18F7A63D00C03286 /* AGBackgroundTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGBackgroundTransferViewController.h; sourceTree = "<group>"; };
+		6F0FE03E18F7A63D00C03286 /* AGBackgroundTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGBackgroundTransferViewController.m; sourceTree = "<group>"; };
+		DA1F10238A0B48DC85E601D3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F0FDFC118F7A50C00C03286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0FDFCA18F7A50C00C03286 /* CoreGraphics.framework in Frameworks */,
+				6F0FDFCC18F7A50C00C03286 /* UIKit.framework in Frameworks */,
+				6F0FDFC818F7A50C00C03286 /* Foundation.framework in Frameworks */,
+				B4C30A797AB346539898AFA0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0FDFE018F7A50C00C03286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0FDFE518F7A50C00C03286 /* XCTest.framework in Frameworks */,
+				6F0FDFE718F7A50C00C03286 /* UIKit.framework in Frameworks */,
+				6F0FDFE618F7A50C00C03286 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0FDFBB18F7A50C00C03286 = {
+			isa = PBXGroup;
+			children = (
+				6F0FDFCD18F7A50C00C03286 /* BackgroundTransfer */,
+				6F0FDFEA18F7A50C00C03286 /* BackgroundTransferTests */,
+				6F0FDFC618F7A50C00C03286 /* Frameworks */,
+				6F0FDFC518F7A50C00C03286 /* Products */,
+				DA1F10238A0B48DC85E601D3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		6F0FDFC518F7A50C00C03286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0FDFC418F7A50C00C03286 /* BackgroundTransfer.app */,
+				6F0FDFE318F7A50C00C03286 /* BackgroundTransferTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0FDFC618F7A50C00C03286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0FDFC718F7A50C00C03286 /* Foundation.framework */,
+				6F0FDFC918F7A50C00C03286 /* CoreGraphics.framework */,
+				6F0FDFCB18F7A50C00C03286 /* UIKit.framework */,
+				6F0FDFE418F7A50C00C03286 /* XCTest.framework */,
+				1EFF976219DE4390B92510EE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F0FDFCD18F7A50C00C03286 /* BackgroundTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				6F0FDFD618F7A50C00C03286 /* AGAppDelegate.h */,
+				6F0FDFD718F7A50C00C03286 /* AGAppDelegate.m */,
+				6F0FE03D18F7A63D00C03286 /* AGBackgroundTransferViewController.h */,
+				6F0FE03E18F7A63D00C03286 /* AGBackgroundTransferViewController.m */,
+				6F0FE03B18F7A61400C03286 /* Main.storyboard */,
+				6F0FDFD918F7A50C00C03286 /* Podfile */,
+				6F0FDFDB18F7A50C00C03286 /* .gitignore */,
+				6F0FDFDD18F7A50C00C03286 /* Images.xcassets */,
+				6F0FDFCE18F7A50C00C03286 /* Supporting Files */,
+			);
+			path = BackgroundTransfer;
+			sourceTree = "<group>";
+		};
+		6F0FDFCE18F7A50C00C03286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F0FDFCF18F7A50C00C03286 /* BackgroundTransfer-Info.plist */,
+				6F0FDFD018F7A50C00C03286 /* InfoPlist.strings */,
+				6F0FDFD318F7A50C00C03286 /* main.m */,
+				6F0FDFD518F7A50C00C03286 /* BackgroundTransfer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F0FDFEA18F7A50C00C03286 /* BackgroundTransferTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0FDFF018F7A50C00C03286 /* BackgroundTransferTests.m */,
+				6F0FDFEB18F7A50C00C03286 /* Supporting Files */,
+			);
+			path = BackgroundTransferTests;
+			sourceTree = "<group>";
+		};
+		6F0FDFEB18F7A50C00C03286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F0FDFEC18F7A50C00C03286 /* BackgroundTransferTests-Info.plist */,
+				6F0FDFED18F7A50C00C03286 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F0FDFC318F7A50C00C03286 /* BackgroundTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0FDFF418F7A50C00C03286 /* Build configuration list for PBXNativeTarget "BackgroundTransfer" */;
+			buildPhases = (
+				88F624D827D7413C9C06234F /* Check Pods Manifest.lock */,
+				6F0FDFC018F7A50C00C03286 /* Sources */,
+				6F0FDFC118F7A50C00C03286 /* Frameworks */,
+				6F0FDFC218F7A50C00C03286 /* Resources */,
+				D0D6DFED396E42949B70F745 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundTransfer;
+			productName = BackgroundTransfer;
+			productReference = 6F0FDFC418F7A50C00C03286 /* BackgroundTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F0FDFE218F7A50C00C03286 /* BackgroundTransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0FDFF718F7A50C00C03286 /* Build configuration list for PBXNativeTarget "BackgroundTransferTests" */;
+			buildPhases = (
+				6F0FDFDF18F7A50C00C03286 /* Sources */,
+				6F0FDFE018F7A50C00C03286 /* Frameworks */,
+				6F0FDFE118F7A50C00C03286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F0FDFE918F7A50C00C03286 /* PBXTargetDependency */,
+			);
+			name = BackgroundTransferTests;
+			productName = BackgroundTransferTests;
+			productReference = 6F0FDFE318F7A50C00C03286 /* BackgroundTransferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0FDFBC18F7A50C00C03286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AG;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					6F0FDFC318F7A50C00C03286 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					6F0FDFE218F7A50C00C03286 = {
+						TestTargetID = 6F0FDFC318F7A50C00C03286;
+					};
+				};
+			};
+			buildConfigurationList = 6F0FDFBF18F7A50C00C03286 /* Build configuration list for PBXProject "BackgroundTransfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F0FDFBB18F7A50C00C03286;
+			productRefGroup = 6F0FDFC518F7A50C00C03286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F0FDFC318F7A50C00C03286 /* BackgroundTransfer */,
+				6F0FDFE218F7A50C00C03286 /* BackgroundTransferTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F0FDFC218F7A50C00C03286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0FDFDA18F7A50C00C03286 /* Podfile in Resources */,
+				6F0FE03C18F7A61400C03286 /* Main.storyboard in Resources */,
+				6F0FDFDE18F7A50C00C03286 /* Images.xcassets in Resources */,
+				6F0FDFDC18F7A50C00C03286 /* .gitignore in Resources */,
+				6F0FDFD218F7A50C00C03286 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0FDFE118F7A50C00C03286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0FDFEF18F7A50C00C03286 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88F624D827D7413C9C06234F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D6DFED396E42949B70F745 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F0FDFC018F7A50C00C03286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0FDFD818F7A50C00C03286 /* AGAppDelegate.m in Sources */,
+				6F0FDFD418F7A50C00C03286 /* main.m in Sources */,
+				6F0FE03F18F7A63D00C03286 /* AGBackgroundTransferViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0FDFDF18F7A50C00C03286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0FDFF118F7A50C00C03286 /* BackgroundTransferTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F0FDFE918F7A50C00C03286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F0FDFC318F7A50C00C03286 /* BackgroundTransfer */;
+			targetProxy = 6F0FDFE818F7A50C00C03286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F0FDFD018F7A50C00C03286 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0FDFD118F7A50C00C03286 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F0FDFED18F7A50C00C03286 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0FDFEE18F7A50C00C03286 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F0FDFF218F7A50C00C03286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F0FDFF318F7A50C00C03286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F0FDFF518F7A50C00C03286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1F10238A0B48DC85E601D3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTransfer/BackgroundTransfer-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTransfer/BackgroundTransfer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55445061-01C3-4848-85E0-56ECDD0EA226";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F0FDFF618F7A50C00C03286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1F10238A0B48DC85E601D3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTransfer/BackgroundTransfer-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTransfer/BackgroundTransfer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55445061-01C3-4848-85E0-56ECDD0EA226";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F0FDFF818F7A50C00C03286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BackgroundTransfer.app/BackgroundTransfer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTransfer/BackgroundTransfer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BackgroundTransferTests/BackgroundTransferTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6F0FDFF918F7A50C00C03286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BackgroundTransfer.app/BackgroundTransfer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTransfer/BackgroundTransfer-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTransferTests/BackgroundTransferTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F0FDFBF18F7A50C00C03286 /* Build configuration list for PBXProject "BackgroundTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0FDFF218F7A50C00C03286 /* Debug */,
+				6F0FDFF318F7A50C00C03286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0FDFF418F7A50C00C03286 /* Build configuration list for PBXNativeTarget "BackgroundTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0FDFF518F7A50C00C03286 /* Debug */,
+				6F0FDFF618F7A50C00C03286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0FDFF718F7A50C00C03286 /* Build configuration list for PBXNativeTarget "BackgroundTransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0FDFF818F7A50C00C03286 /* Debug */,
+				6F0FDFF918F7A50C00C03286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F0FDFBC18F7A50C00C03286 /* Project object */;
+}
